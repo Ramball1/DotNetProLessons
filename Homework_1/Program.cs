@@ -210,7 +210,7 @@ namespace Homework_1
                     {
                         case MenuItem.TaskAddMileage:
                             {
-                                while (menuSelect == ((char)MenuItem.TaskAddMileage))
+                                while (true)
                                 {
                                     try
                                     {
@@ -229,7 +229,7 @@ namespace Homework_1
                                             break;
                                         }
 
-                                        while (menuSelect == ((char)MenuItem.TaskAddMileage))
+                                        while (true)
                                         {
                                             try
                                             {
